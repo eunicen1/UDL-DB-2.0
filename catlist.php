@@ -21,11 +21,11 @@ require 'connect.php';
         <input type="text" name="search"><button type="submit"><img src="search.png"></button></input>
     </form>
     <section class = "list">
-        <h3>Links</h3>
-        
-
-    <?php
-        $q = $_GET['q']; # query
+        <?php 
+        $q = $_GET['q'];
+        echo "<h3>". $q . "</h3>";
+       
+         # query
         $sql = "SELECT * FROM ".$datatable." WHERE `Primary Category`=\"".$q ."\" OR `Secondary Category`= \"".$q ."\" ORDER BY `Title` ASC";
         $result = $conn->query($sql);
         if (mysqli_num_rows($result) > 0) {
