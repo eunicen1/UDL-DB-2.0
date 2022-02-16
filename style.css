@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+body{
+    background-color: #a5e0f8;
+    font-family: 'Poppins', sans-serif;
+    text-align:center;
+    padding:8%;
+}
+
+h1{
+    font-weight:bolder;
+    font-size:40px;
+}
+
+h2{
+    font-weight:normal;
+    font-size:20px;
+}
+
+input{
+    width: 40%;
+    padding: 20px;
+    border-radius: 40px;
+    border-width: 5px;
+    border-color: #516f7a;
+    background: transparent;
+    font-family: 'Poppins', sans-serif;
+    font-size:20px;
+}
+
+button{
+    background: transparent;
+    border: none; 
+    width: 50px;
+    height: inherit;
+}
+button img{
+    width: 80%;
+    height: inherit;
+}
+
+button:hover{
+    transform: rotate(20deg)  scale(1.2);
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+.main{
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    height: inherit;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    background-color: white;
+    
+    margin-bottom: -11%;
+}
+
+.list{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    min-height: 400px;
+    background-image: url("overlay.png?t=");
+    background-repeat: no-repeat;
+    margin-top: 5%;
+    margin-bottom: -11%;
+    text-align: left;
+    padding: 5%;
+    color: white;
+}
+h3{
+    font-size: 25px;
+    font-weight: normal;
+    color: white;
+    text-decoration: underline #a5e0f8;
+}
+p{
+    font-size: 20px;
+    font-weight: normal;
+    color: #a5e0f8;
+}
+ul{
+    display: flex;
+    flex-direction: row; 
+    flex-wrap: wrap;
+    width: 100%;
+    margin-left:-20px;
+}
+li, a, a:link, a:visited{
+    color: #a5e0f8;
+    margin: 10px;
+}
+
+.wtlink:link, .wtlink:visited{
+    color: white;
+    text-decoration: none;
+}
+
+hr{
+    border: 0;
+    height: 3px;
+    background: white;
+    background-image: -webkit-linear-gradient(left, #516f7a, #a5e0f8, #516f7a);
+    background-image: -moz-linear-gradient(left, #516f7a, #a5e0f8, #516f7a);
+    background-image: -ms-linear-gradient(left,#516f7a, #a5e0f8, #516f7a);
+    background-image: -o-linear-gradient(left, #516f7a, #a5e0f8, #516f7a);
+}
+
+img.logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    height: inherit;
+}
+
+.noflex{
+    display:block;
+}
