@@ -7,4 +7,4 @@ A usable database has been developped to showcase all things CADDING and mechani
 PHP, MySQL.
 
 ## Preview
-![Preview of prototype] (https://github.com/eunicen1/UDL-DB-2.0/blob/main/rmd_ex.PNG)
+![Prototype Preview](https://github.com/eunicen1/UDL-DB-2.0/blob/main/rmd_ex.PNG)
