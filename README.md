@@ -1,7 +1,7 @@
 # UDL-DB-2.0
 ## UBC Design League Database 2.0 
 
-A usable database has been developped to showcase all things CADDING and mechanical design / development. 
+A usable database has been developped to showcase CAD, mechanical, and architectural engineering. 
 
 ## Techstack
 PHP, MySQL, CSS.
